@@ -1,5 +1,7 @@
 # DmmEikaiwa2GoogleCalendar
 
+When you book a lesson on DMM Eikaiwa, a schedule will automatically be created on Google Calender by using a Gmail.
+
 ## Environment
 
 ```txt
@@ -13,6 +15,12 @@ $ npm -v
 ## Setup
 
 ### 1. Clone the repo
+
+```txt
+$ git clone https://github.com/na-yusuke/DmmEikaiwa2GoogleCalendar.git
+or
+$ git clone git@github.com:na-yusuke/DmmEikaiwa2GoogleCalendar.git
+```
 
 ### 2. Install libraries
 
@@ -36,7 +44,7 @@ $ clasp login
 1. At the left, click Project Settings.
 1. Under IDs, copy the `Script ID`.
 
-### 5. Link the script and the GAS project
+### 5. Link the script to the GAS project
 
 1. Copy `.clasp.example.json` to `.clasp.json`.
 
