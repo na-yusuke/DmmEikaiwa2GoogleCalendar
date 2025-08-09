@@ -78,6 +78,6 @@ Yes
 ## 💡 Motivation for it
 
 I take a DMM Eikaiwa's lesson almost every day.  
-However, it is annoying to have to remember the schedule for each lesson.
-So I came up with an idea of creating an schedule automatically by using the email on Gmail I receive when I book a lesson.
-Now, I don't have to care about lesson schedule anymore.
+However, it is annoying to have to remember the schedule for each lesson.  
+So I came up with an idea of creating an schedule automatically by using the email on Gmail I receive when I book a lesson.  
+Now, I don't have to care about lesson schedule anymore.  
