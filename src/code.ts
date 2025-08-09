@@ -1,4 +1,4 @@
-const CRITERIA = "from:noreply@eikaiwa.dmm.com subject:レッスン予約 is:unread ";
+const CRITERIA = "from:noreply@eikaiwa.dmm.com subject:レッスン予約 is:unread";
 
 /**
  * Main function to process DMM Eikaiwa lesson booking emails and create calendar events
