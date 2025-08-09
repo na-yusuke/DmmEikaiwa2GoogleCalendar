@@ -2,7 +2,7 @@
 
 When you book a lesson on DMM Eikaiwa, a schedule will automatically be created on Google Calender by using a Gmail.
 
-## Environment
+## 🌍 Environment
 
 ```txt
 $ node -v
@@ -12,7 +12,7 @@ $ npm -v
 10.5.1
 ```
 
-## Setup
+## ⚙️ Setup
 
 ### 1. Clone the repo
 
@@ -70,7 +70,14 @@ Yes
 
 <img src=/image/trigger.png width= "500px" >
 
-## References
+## 📚 References
 
 - [Google Apps ScriptをTypeScriptで書いてみた](https://dev.classmethod.jp/articles/ts2gas/)
 - [clasp でコマンドライン インターフェースを使用する](https://developers.google.com/apps-script/guides/clasp?hl=ja#create_a_new_apps_script_project)
+
+## 💡 Motivation for it
+
+I take a DMM Eikaiwa's lesson almost every day.  
+However, it is annoying to have to remember the schedule for each lesson.
+So I came up with an idea of creating an schedule automatically by using the email on Gmail I receive when I book a lesson.
+Now, I don't have to care about lesson schedule anymore.
