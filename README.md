@@ -4,7 +4,7 @@ When you book a lesson on DMM Eikaiwa, a schedule will automatically be created 
 
 ## 🌍 Environment
 
-```txt
+```bash
 $ node -v
 v20.12.1
 
@@ -16,7 +16,7 @@ $ npm -v
 
 ### 1. Clone the repo
 
-```txt
+```bash
 $ git clone https://github.com/na-yusuke/DmmEikaiwa2GoogleCalendar.git
 or
 $ git clone git@github.com:na-yusuke/DmmEikaiwa2GoogleCalendar.git
@@ -24,13 +24,13 @@ $ git clone git@github.com:na-yusuke/DmmEikaiwa2GoogleCalendar.git
 
 ### 2. Install libraries
 
-```txt
+```bash
 $ npm install
 ```
 
 ### 3. Setup clasp
 
-```txt
+```bash
 $ clasp login
 ```
 
@@ -48,7 +48,7 @@ $ clasp login
 
 1. Copy `.clasp.example.json` to `.clasp.json`.
 
-    ```txt
+    ```bash
     $ cp .clasp.example.json .clasp.json
     ```
 
@@ -58,7 +58,7 @@ $ clasp login
 
 - This command uploads all of a script project's files from your computer to Google Drive.
 
-```txt
+```bash
 $ clasp push
 ✔ Manifest file has been updated. Do you want to push and overwrite? (Yes/No)
 Yes
