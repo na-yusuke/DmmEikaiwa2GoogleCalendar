@@ -59,7 +59,7 @@ $ clasp login
 - This command uploads all of a script project's files from your computer to Google Drive.
 
 ```bash
-$ clasp push
+$ npm run deploy
 ✔ Manifest file has been updated. Do you want to push and overwrite? (Yes/No)
 Yes
 ```

@@ -1,7 +1,7 @@
 {
     "scriptId": "<Type your Script ID>",
-    "rootDir": "./src",
-    "scriptExtensions": [".js", "ts", ".gs"],
+    "rootDir": "./dist",
+    "scriptExtensions": [".js", ".gs"],
     "htmlExtensions": [".html"],
     "jsonExtensions": [".json"],
     "filePushOrder": [],
