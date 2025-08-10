@@ -12,7 +12,7 @@ $ npm -v
 10.5.1
 ```
 
-## ⚙️ Setup
+## 🚀 Setup
 
 ### 1. Clone the repo
 
@@ -28,31 +28,31 @@ $ git clone git@github.com:na-yusuke/DmmEikaiwa2GoogleCalendar.git
 $ npm install
 ```
 
-### 3. Setup clasp
+### 3. Setup clasp (Google Apps Script CLI)
 
 ```bash
 $ clasp login
 ```
 
-- Once run the command, URL is showed on the terminal.
-- When you access the URL, you will be asked to authenticate, and if necessary, allow it.
+- After running the command, a URL will be displayed in the terminal
+- Access the URL to authenticate and grant necessary permissions
 
-### 4. Prepare a GAS project
+### 4. Create a Google Apps Script project
 
-1. Prepare a GAS project to run this repo.
-1. Open Apps Script project.
-1. At the left, click Project Settings.
-1. Under IDs, copy the `Script ID`.
+1. Create a new Google Apps Script project for this application
+2. Open your Apps Script project
+3. Click **Project Settings** in the left sidebar
+4. Under **IDs**, copy the **Script ID**
 
-### 5. Link the script to the GAS project
+### 5. Link the local script to the GAS project
 
-1. Copy `.clasp.example.json` to `.clasp.json`.
+1. Copy the example configuration file:
 
     ```bash
     $ cp .clasp.example.json .clasp.json
     ```
 
-1. Type the `Script ID` obtained above in the `scriptId` field of `.clasp.json`.
+2. Enter the **Script ID** obtained above in the `scriptId` field of `.clasp.json`
 
 ### 6. Upload a script project
 
@@ -64,7 +64,7 @@ $ npm run deploy
 Yes
 ```
 
-### 7. Add a trigger
+### 7. Setup triggers (Automation)
 
 - Create any trigger according to your requirements.
 
